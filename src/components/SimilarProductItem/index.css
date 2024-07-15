@@ -1,0 +1,58 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+.similar-product-item {
+  width: 200px;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.similar-product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.similar-product-title {
+  font-size: 16px;
+  margin: 8px 0 4px;
+}
+
+.similar-product-brand {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0 0 8px;
+}
+
+.similar-product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-product-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.similar-product-rating {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.star-icon {
+  width: 12px;
+  height: 12px;
+  margin-left: 4px;
+}
+.star-icon {
+  width: 16px;
+  height: 16px;
+}

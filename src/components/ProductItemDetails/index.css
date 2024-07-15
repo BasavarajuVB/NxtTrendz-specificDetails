@@ -1,0 +1,170 @@
+.product-item-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details {
+  display: flex;
+  gap: 32px;
+}
+
+.product-image {
+  width: 50%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product-title {
+  font-size: 32px;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.rating-container1 {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  width: 100px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 4px;
+  border-radius: 3px;
+
+  width: 100px;
+  background-color: #3b82f6;
+}
+.star-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.reviews-count {
+  color: #64748b;
+}
+
+.product-description {
+  color: #475569;
+  line-height: 1.5;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+
+.label {
+  font-weight: bold;
+  color: #64748b;
+}
+
+.horizontal-line {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 16px 0;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.quantity-button {
+  background-color: transparent;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+
+.quantity-button:disabled {
+  opacity: 0.5;
+}
+
+.quantity {
+  font-size: 20px;
+}
+
+.add-to-cart-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 9px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 110px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #2563eb;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-view-image {
+  width: 300px;
+  height: auto;
+}
+
+.product-not-found-heading {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #2563eb;
+}
+
+.similar-products {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
